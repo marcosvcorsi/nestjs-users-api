@@ -1,0 +1,9 @@
+{
+  "type": "sqlite",
+  "database": "./users.sql",
+  "entities": ["dist/modules/**/entities/*.{ts,js}"],
+  "migrations": ["dist/shared/database/migrations/*.{ts.js}"],
+  "cli": {
+    "migrationsDir": "src/shared/database/migrations"
+  }
+}
